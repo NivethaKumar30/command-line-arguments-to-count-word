@@ -27,15 +27,18 @@ End the program.
 
 ## PROGRAM:
 ```
-#Developed by:K.NIVETHA
-#Register num: 22009186
-num_words=0
-with open('shara.txt','r') as file1:
-    for i in file1:
-        word=i.split()
-        num_words += len(word)
-print('num of words={}'.format(num_words))
+#Developed by: K.NIVETHA
+#Register number: 22009186
+
+import sys
+count= 0
+with open(sys.argv[1],'r') as f1:
+    for line in f1:
+        word= line.split()
+        count += len(word)
+print("word count in file = ",count)
 ```
+
 ### OUTPUT:
 
 
