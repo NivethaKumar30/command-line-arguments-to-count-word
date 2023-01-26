@@ -27,8 +27,8 @@ End the program.
 
 ## PROGRAM:
 ```
-#Developed by:SRINIDHI SENTHIL
-#Register num: 22001408
+#Developed by:K.NIVETHA
+#Register num: 22009186
 num_words=0
 with open('shara.txt','r') as file1:
     for i in file1:
