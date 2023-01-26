@@ -42,6 +42,8 @@ print("Number of words={}".format(num_words))
 
 ### OUTPUT:
 
+![01](https://user-images.githubusercontent.com/119559844/214969101-c1a74a33-1d37-403d-9a83-5a5513582675.png)
+![02](https://user-images.githubusercontent.com/119559844/214969196-4db7db0e-c0cc-4287-a41c-82e496ed3002.png)
 
 
 ## RESULT:
