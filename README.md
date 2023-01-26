@@ -27,16 +27,17 @@ End the program.
 
 ## PROGRAM:
 ```
-#Developed by: K.NIVETHA
-#Register number: 22009186
+##Developed by : K.NIVETHA
+##Register number :22009186
 
 import sys
-count= 0
-with open(sys.argv[1],'r') as f1:
-    for line in f1:
-        word= line.split()
-        count += len(word)
-print("word count in file = ",count)
+
+with open(sys.argv[1],'r') as f:
+    num_words =0
+    for i in f:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
 ```
 
 ### OUTPUT:
